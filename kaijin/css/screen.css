@@ -1,0 +1,156 @@
+@import "reset.css";
+@import "tabs.css";
+
+/* Base fonts and color */
+body { font-size: 75%; }
+body { font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, arial, verdana, sans-serif; line-height: 1.5; background: #E5E5E5; color: #000; direction: ltr; text-align: left; }
+hr { visibility: hidden; }
+p { margin-bottom: 1.5em; }
+li p { margin-bottom: 0; }
+#message p, #RandomQuote_FortuneCookies p { margin-bottom: 0; }
+#content #RandomQuote_FortuneCookies { margin: -0.35em -0.5em; }
+
+/* Headlines
+------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+/* Header
+------------------------------------------------------------------------- */
+#header { background: #333; font-size: 0.85em; height: 9em; position: relative; }
+#header a { color: #FFF; text-decoration: none; }
+#header a:hover { text-decoration: underline; }
+#header li { color: #FFF; list-style: none; }
+
+#header #navibar { position: absolute; bottom: 0; left: 30px; }
+#header #navibar li { margin-right: 1px; }
+#header #navibar li { background: #666; }
+#header #navibar a { padding: 3px 15px; display: block; text-decoration: none; color: #EFEFEF; }
+#header #navibar li:hover { background: #9E9E9E; }
+#header #navibar li.current { background: #E5E5E5; color: #6C6C6C; }
+#header #navibar li.current a { color: #000; }    
+
+/* Body
+------------------------------------------------------------------------- */
+#body { margin: 30px 30px 0 30px; }
+
+#page { background: #FFF; border-right: 2px solid #CCC; border-bottom: 2px solid #CCC; margin: 40px 30px 15px 30px; padding: 15px; }
+#content { background: #F3F3F3; padding: 30px; font-size: 0.95em; }
+
+/* Searchform */
+#searchform { position: absolute; width: 350px; right: 3em; top: 1.2em; }
+#titlesearch { width: 45px; }
+#fullsearch { width: 45px; }
+#searchinput { width: 235px; }
+
+/* Pagelocation */
+#pagelocation { position: absolute; left: 3em; top: 4em; }
+
+/* Pagetrail */
+#pagetrail { list-style: none; position: absolute; right: 3em; top: 4em; }
+#pagetrail li { float: left; margin-right: 10px; }
+
+/* Login */
+#username { list-style: none; position: absolute; left: 3em; top: 1.5em; }
+#username li { float: left; margin-right: 10px; }
+
+/* Editbar */
+#header .editbar { position: absolute; bottom: -30px; left: 3em; }
+#header .editbar a { color: #000; display: block; height: 2em; line-height: 2em; }
+#header .editbar span { color: #F00; display: block; height: 2em; line-height: 2em; }
+#header .editbar li { float: left; margin-right: 10px; }
+
+/* Message */
+#message { position: absolute; right: 3em; bottom: -25px; }
+#message p { float: left; margin-right: 10px; background: yellow; }
+#message .buttons { float: left; }
+#message a { color: #000; }
+
+/* Pageinfo */
+#pageinfo { font-size: 0.85em; margin-top: 5px; }
+
+/* Footer
+------------------------------------------------------------------------- */
+#footer { margin: 15px 30px; padding-bottom: 30px; font-size: 0.8em; color: #999; clear: both; }
+#footer a { color: #000; text-decoration: none; display: block; height: 2em; line-height: 2em; }
+#footer a:hover { text-decoration: underline; }
+#footer ul { list-style: none; }
+#footer .editbar li { float: left; margin-right: 10px; }
+#footer .editbar span { color: #F00; display: block; height: 2em; line-height: 2em; }
+#footer #credits li { float: right; margin-left: 10px; }
+
+/* RandomQuote
+------------------------------------------------------------------------- */
+#RandomQuote_FortuneCookies { background: #8DC6AF; padding: 5px; }
+
+/* RecentChanges
+------------------------------------------------------------------------- */
+#content .recentchanges { margin: 15px 0; }
+#content .recentchanges .rcrss { text-align: right; }
+#content .recentchanges div { margin: 15px 0; }
+#content .recentchanges table { width: 100%; border-collapse: collapse; border-spacing: 0; border: 2px solid #E5E5E5; }
+#content .recentchanges table tr { border-bottom: 1px solid #E5E5E5; padding: 0 5px; }
+#content .recentchanges td { border: 0; }
+#content .rcdaybreak { background: #E5E5E5; }
+#content .rcdaybreak td { padding: 5px; }
+#content .rcicon1 { width: 60px; text-align: center; }
+#content .rcpagelink {}
+#content .rctime { width: 50px; text-align: center; }
+#content .rcicon2 { width: 25px; text-align: center; }
+#content .rceditor { width: 100px; }
+#content .rccomment { color: #999; }
+
+/* Edit
+------------------------------------------------------------------------- */
+textarea { width: 100%; height: 25em; font-family: Monaco, "Andale Mono", courier, monospace; font-size: 0.85em; }
+input.button { margin-bottom: 0.75em; }
+#editor-comment { width: 92%; margin-bottom: 0; }
+#chkrstrip { margin-bottom: 0; }
+#editor-help { background: #E5E5E5; border: 2px dotted #999; margin-bottom: 1.5em; padding: 5px; }
+#editor-help dt { font-size: 1.4em; }
+#editor-help dd { margin-bottom: 10px; }
+
+/* Misc
+------------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 { font-family: Palatino, Georgia, Times, "Times New Roman", serif; font-weight: normal; }
+#content h1 { font-size: 1.8334em; line-height: 0.8181; margin-bottom: 0.8181em; }
+#content h2 { font-size: 1.6667em; line-height: 0.9; margin-bottom: 0.3em; margin-top: 0.6em; }
+#content h3 { font-size: 1.5em; line-height: 1.0; margin-bottom: 0.3334em; margin-top: 0.6667em; }
+#content h4 { font-size: 1.3334em; line-height: 1.125; margin-bottom: 0.375em; margin-top: 0.75em; }
+#content h5 { font-size: 1.16667em; line-height: 1.2857; margin-bottom: 0.4286em; margin-top: 0.8571em; }
+#content h6 { font-size: 1.1em; line-height: 1.5; margin-bottom: 0.5em; margin-top: 1.0em; }
+#content p { }
+#content em { font-family: Palatino, Georgia, Times, "Times New Roman", serif; font-style: italic; }
+#content strong { font-weight: bold; }
+#content .u, #content ins { text-decoration: underline; }
+#content .strike, #content del { text-decoration: line-through; }
+#content pre { background: #E5E5E5; padding: 1em; border-bottom: 1px solid #CBCBCB; margin-bottom: 1.5em; font-family: Monaco, "Andale Mono", courier, monospace; overflow: auto; }
+#content div.codearea pre { border-bottom: 0; padding: 0; }
+#content div.codearea { background: #E5E5E5; padding: 1em; border-bottom: 1px solid #CBCBCB; margin-bottom: 1.5em; }
+#content pre span.LineNumber { color: #777; }
+#content ul li { list-style-type: square; }
+#content ul, ol { margin: 1.5em 0; }
+#content ul ul, #content ol ol { margin: 0 0 0 1.5em; }
+#content tt { font-family: Monaco, "Andale Mono", courier, monospace; }
+#content dl { margin-bottom: 1.5em; }
+#content dt { font-weight: bold; }
+#content dd { margin: 0 0 0 1.5em; }
+#content form dd { margin: 0; }
+#content hr { visibility: visible; background: #999; border: 0; height: 1px; margin: 1.5em 0; }
+#content hr.hr1 { height: 2px; }
+#content hr.hr2 { height: 3px; }
+#content hr.hr3 { height: 4px; }
+#content hr.hr4 { height: 5px; }
+#content hr.hr5 { height: 6px; }
+#content hr.hr6 { height: 7px; }
+#content table { width: auto; }
+#content td { border: 1px solid #CBCBCB; padding: 0.25em 0.5em; }
+#content table { width: 100%; }
+#content td p { margin-bottom: 0; }
+#content .diff-header { font-family: Palatino, Georgia, Times, "Times New Roman", serif; font-size: 1.8334em; line-height: 0.8181; margin-bottom: 0.8181em; }
+#content .diff-header {  }
+#content .diff-title { background: #666; color: #FFF; }
+#content .diff-title a { color: #FFF; text-decoration: none; }
+#content .diff-added { background: #DDFFDD; }
+#content .diff-added span { background: #00AA00; color: #FFF; padding: 2px; }
+#content .diff-removed { background: #FFDDDD; }
+#content .diff-removed span { background: #CC0000; color: #FFF; padding: 2px; }

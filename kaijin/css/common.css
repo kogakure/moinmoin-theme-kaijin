@@ -1,0 +1,58 @@
+/*  common.css - MoinMoin Default Styles
+
+Copyright (c) 2001, 2002, 2003 by Juergen Hermann
+Modified (by-nc-sa) 2008, Stefan Imhoff
+*/
+
+a.nonexistent, a.badinterwiki { color: gray; }
+
+a.www:before { content: url(../img/moin-www.png); margin: 0 0.2em; }
+a.http:before { content: url(../img/moin-www.png); margin: 0 0.2em; }
+a.https:before { content: url(../img/moin-www.png); margin: 0 0.2em; }
+a.file:before { content: url(../img/moin-ftp.png); margin: 0 0.2em; }
+a.ftp:before { content: url(../img/moin-ftp.png); margin: 0 0.2em; }
+a.nntp:before { content: url(../img/moin-news.png); margin: 0 0.2em; }
+a.news:before { content: url(../img/moin-news.png); margin: 0 0.2em; }
+a.telnet:before { content: url(../img/moin-telnet.png); margin: 0 0.2em; }
+a.irc:before { content: url(../img/moin-telnet.png); margin: 0 0.2em; }
+a.mailto:before { content: url(../img/moin-email.png); margin: 0 0.2em; }
+a.attachment:before { content: url(../img/moin-attach.png); margin: 0 0.2em; }
+a.badinterwiki:before { content: url(../img/moin-inter.png); margin: 0 0.2em; }
+a.interwiki:before { content: url(../img/moin-inter.png); margin: 0 0.2em; }
+
+/* IE sucks */
+* html a.www { padding-left: 14px; background: url(../img/moin-www.png) left center no-repeat; }
+* html a.http { padding-left: 14px; background: url(../img/moin-www.png) left center no-repeat; }
+* html a.https { padding-left: 14px; background: url(../img/moin-www.png) left center no-repeat; }
+* html a.file { padding-left: 14px; background: url(../img/moin-ftp.png) left center no-repeat; }
+* html a.ftp { padding-left: 14px; background: url(../img/moin-ftp.png) left center no-repeat; }
+* html a.nntp { padding-left: 14px; background: url(../img/moin-news.png) left center no-repeat; }
+* html a.news { padding-left: 14px; background: url(../img/moin-news.png) left center no-repeat; }
+* html a.telnet { padding-left: 14px; background: url(../img/moin-telnet.png) left center no-repeat; }
+* html a.irc { padding-left: 14px; background: url(../img/moin-telnet.png) left center no-repeat; }
+* html a.mailto { padding-left: 14px; background: url(../img/moin-email.png) left center no-repeat; }
+* html a.attachment { padding-left: 14px; background: url(../img/moin-attach.png) left center no-repeat; }
+* html a.badinterwiki { padding-left: 14px; background: url(../img/moin-inter.png) left center no-repeat; }
+* html a.interwiki { padding-left: 14px; background: url(../img/moin-inter.png) left center no-repeat; }
+
+
+.warning { color: red; }
+.error { color: red; }
+strong.highlight { background-color: #CCE0FF; padding: 1pt; }
+
+a.codenumbers { margin: 0 10pt; color: gray; }
+
+div.codearea pre span.LineNumber { color: gray; }
+div.codearea pre span.ID         { color: #000000; }
+div.codearea pre span.Operator   { color: #0000C0; }
+div.codearea pre span.Char       { color: #004080; }
+div.codearea pre span.Comment    { color: #008000; }
+div.codearea pre span.Number     { color: #0080C0; }
+div.codearea pre span.String     { color: #004080; }
+div.codearea pre span.SPChar     { color: #0000C0; }
+div.codearea pre span.ResWord    { color: #A00000; }
+div.codearea pre span.ConsWord   { color: #008080; font-weight: bold; }
+div.codearea pre span.Error      { color: #FF8080; border: solid 1.5pt #FF0000; }
+div.codearea pre span.ResWord2   { color: #0080ff; font-weight: bold; }
+div.codearea pre span.Special    { color: #0000ff; }
+div.codearea pre span.Preprc     { color: #803999; }
