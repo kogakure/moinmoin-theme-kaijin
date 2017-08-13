@@ -1,3 +1,5 @@
+![Maintenance](https://img.shields.io/maintenance/no/2008.svg)
+
 # MoinMoin Kaijin (japanese “ash and dust”) Theme
 
 This theme is based on the “modern” theme, copyrighted 2003-2005 by
